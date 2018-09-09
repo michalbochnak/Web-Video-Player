@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/addSongTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter song info below:"
+        android:textColor="@color/colorAccent"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/titleEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Title"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/artistEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Artist"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/videoUrlEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Video URL"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/songInfoUrlEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Song URL"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/artistInfoUrlEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Artist URL"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/addSongButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add song"
+        android:textColor="@color/hiVisRed" />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/clearButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Clear all"
+            android:textColor="@android:color/background_dark" />
+
+        <Button
+            android:id="@+id/cancelButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cancel"
+            android:textColor="@color/darkGray" />
+
+    </LinearLayout>
+
+</LinearLayout>
+
+</ScrollView>

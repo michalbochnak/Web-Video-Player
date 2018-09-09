@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string-array name="titles">
+        <item>Mr Tambourine Man - 1964</item>
+        <item>Promeny</item>
+        <item>Primo Victoria</item>
+        <item>The Violence</item>
+        <item>World ain\'t right</item>
+        <item>Simple man</item>
+    </string-array>
+
+    <string-array name="artists">
+        <item>Bob Dylan</item>
+        <item>Cechemor</item>
+        <item>Sabaton</item>
+        <item>Rise Against</item>
+        <item>Hurt ft. Shaun Morgan</item>
+        <item>Shinedown</item>
+    </string-array>
+
+    <string-array name="videoURLs">
+        <item>https://www.youtube.com/watch?v=OeP4FFr88SQ</item>
+        <item>https://www.youtube.com/watch?v=noOL_Iq1Dnc</item>
+        <item>https://www.youtube.com/watch?v=IrJAwCBbnuc</item>
+        <item>https://www.youtube.com/watch?v=Y7bvMlfmTm4</item>
+        <item>https://www.youtube.com/watch?v=spLx2n1onpk</item>
+        <item>https://www.youtube.com/watch?v=rgFQ6WmxdMs</item>
+    </string-array>
+
+    <string-array name="songInfoURLs">
+        <item>https://en.wikipedia.org/wiki/Mr._Tambourine_Man</item>
+        <item>https://cs.wikipedia.org/wiki/Prom%C4%9Bny_(album)</item>
+        <item>https://en.wikipedia.org/wiki/Primo_Victoria</item>
+        <item>https://en.wikipedia.org/wiki/The_Violence</item>
+        <item>https://en.wikipedia.org/wiki/Goodbye_to_the_Machine</item>
+        <item>https://en.wikipedia.org/wiki/Simple_Man_(Lynyrd_Skynyrd_song)</item>
+    </string-array>
+
+    <string-array name="artistInfoURLs">
+        <item>https://en.wikipedia.org/wiki/Bob_Dylan</item>
+        <item>https://cs.wikipedia.org/wiki/%C4%8Cechomor</item>
+        <item>https://en.wikipedia.org/wiki/Sabaton_(band)</item>
+        <item>https://en.wikipedia.org/wiki/Rise_Against</item>
+        <item>https://en.wikipedia.org/wiki/Hurt_(band)</item>
+        <item>https://en.wikipedia.org/wiki/Shinedown</item>
+    </string-array>
+    
+</resources>

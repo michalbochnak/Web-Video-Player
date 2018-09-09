@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/add_song_menu_item"
+        android:title="Add song" />
+    <item
+        android:id="@+id/remove_song_menu_option"
+        android:title="Remove song">
+
+           <menu>
+               <!-- empty, filled programmatically -->
+           </menu>
+
+    </item>
+    <item
+        android:id="@+id/exit_menu_item"
+        android:title="Exit" />
+</menu>
